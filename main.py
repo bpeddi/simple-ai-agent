@@ -11,8 +11,8 @@ from langchain_core.messages import HumanMessage
 # Load environment variables
 load_dotenv()
 
-# Add the genets directory to the path for imports
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'genets'))
+# Add the agenets directory to the path for imports
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'agenets'))
 
 try:
     from simple_agent import agent, active_store
